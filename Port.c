@@ -701,8 +701,7 @@ void Port_SetPinMode(Port_PinType Pin, Port_PinModeType Mode){
             /* the register value OR'ed with alternative functionality value at shifted position
              * to the left with value equal to (4 * Ch_Num)  (Step 3) */
             *(volatile uint32*)((volatile uint8 *)PortBaseAddress_Ptr + PORT_CTL_REG_OFFSET) |=
-                    (Mode & 0x0000000F <<
-                    (Channels_Ptr->Channels[Pin].Ch_Num * 4)) ;
+                    (Mode & 0x0000000F << (Channels_Ptr->Channels[Pin].Ch_Num * 4)) ;
 
             /* Step 4 */
             SET_BIT(*(volatile uint32*)((volatile uint8*)PortBaseAddress_Ptr + PORT_DIGITAL_ENABLE_REG_OFFSET) ,
