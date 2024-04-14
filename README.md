@@ -11,4 +11,4 @@
 ----
 :framed_picture:	
 ### Snapshots :- 
-![](https://imgur.com/a/DdNHt5L)
+![](https://i.imgur.com/gLBOV0J.png)
