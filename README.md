@@ -1,5 +1,4 @@
-### PORT & DIO Drivers Implemented in an Simple Scheduler Project that checks for the button if pressed at time intervals and refreshes the state of the LED light at time intervals and if the button
-### is pressed the led light toggles. 
+### PORT & DIO Drivers Implemented in a Simple Scheduler Project that checks for the button if pressed at time intervals and refreshes the state of the LED light at time intervals and if the button is pressed the led light toggles. 
 
 ### PORT Driver Implemented using SWS & SRS for the PORT Driver from AUTOSAR Documents version 4.3.0 , Files Implemented from scratch :-
 1) Port_Cfg.h
