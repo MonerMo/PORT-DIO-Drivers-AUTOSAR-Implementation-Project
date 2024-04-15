@@ -1,7 +1,7 @@
 ******************************************************************************
                   TI ARM Linker PC v20.2.7                     
 ******************************************************************************
->> Linked Sun Apr 14 08:46:37 2024
+>> Linked Sun Apr 14 19:55:07 2024
 
 OUTPUT FILE NAME:   <Graduation_Project_AUTOSAR.out>
 ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 0000132d
@@ -58,7 +58,7 @@ section   page    origin      length       input sections
                   0000139e    00000004                                   : exit.c.obj (.text:abort:abort)
 
 .const     0    000013a2    00000014     
-                  000013a2    00000010     App.obj (.const:Port_Configuration)
+                  000013a2    00000010     Port_PBcfg.obj (.const:Port_Configuration)
                   000013b2    00000004     Dio_PBcfg.obj (.const:Dio_Configuration)
 
 .cinit     0    000013b8    00000024     
@@ -96,9 +96,10 @@ MODULE SUMMARY
        Os.obj                         168    0         2      
        Gpt.obj                        124    0         4      
        Button.obj                     124    0         3      
-       App.obj                        88     16        2      
+       App.obj                        88     0         2      
        Led.obj                        62     0         0      
        Det.obj                        22     0         0      
+       Port_PBcfg.obj                 0      16        0      
        main.obj                       10     0         0      
        Dio_PBcfg.obj                  0      4         0      
     +--+------------------------------+------+---------+---------+

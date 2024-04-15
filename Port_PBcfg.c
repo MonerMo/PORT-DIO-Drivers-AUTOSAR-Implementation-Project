@@ -52,10 +52,10 @@
  *
  */
 
-//const Port_ConfigType Port_Configuration = {
+extern const Port_ConfigType Port_Configuration = {
 
-  //      PORT_F , PORT_PIN_1 , PORT_PIN_LEVEL_HIGH , STD_OFF , STD_OFF , PORT_PIN_OUT , PORT_PIN_MODE_DIO , OFF
-
-//};
+        PORT_F , PORT_PIN_1 , PORT_PIN_LEVEL_LOW , PORT_PIN_OUT , PORT_PIN_MODE_DIO , OFF     , STD_ON , STD_ON,
+        PORT_F , PORT_PIN_4 , PORT_PIN_LEVEL_LOW , PORT_PIN_IN  , PORT_PIN_MODE_DIO , PULL_UP , STD_ON , STD_ON,
+};
 
 

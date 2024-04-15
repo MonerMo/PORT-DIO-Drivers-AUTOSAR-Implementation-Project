@@ -332,6 +332,7 @@ void Port_GetVersionInfo(Std_VersionInfoType* versioninfo);
 void Port_SetPinMode(Port_PinType Pin, Port_PinModeType Mode);
 
 
-
+/* Configuration Structure  */
+extern const Port_ConfigType Port_Configuration ;
 
 #endif /* PORT_H */
